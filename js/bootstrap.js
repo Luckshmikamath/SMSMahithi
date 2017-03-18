@@ -323,13 +323,14 @@ if (typeof jQuery === 'undefined') {
   Carousel.VERSION  = '3.3.4'
 
   Carousel.TRANSITION_DURATION = 600
-
+    
   Carousel.DEFAULTS = {
-    interval: 3500,
+    interval: 3800,
     pause: 'hover',
     wrap: true,
     keyboard: true
   }
+
 
   Carousel.prototype.keydown = function (e) {
     if (/input|textarea/i.test(e.target.tagName)) return
